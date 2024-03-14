@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Definição da estrutura de um bem móvel
+// Definiï¿½ï¿½o da estrutura de um bem mï¿½vel que serÃ¡ adicionado ao arquivo
 struct Movels {
     string nome;
     string categoria;
@@ -12,7 +12,7 @@ struct Movels {
     double peso;
 };
 
-// Definição da estrutura de um bem imóvel
+// Definiï¿½ï¿½o da estrutura de um bem imï¿½vel
 struct Imovels {
     string nome;
     string categoria;
@@ -20,7 +20,7 @@ struct Imovels {
     string endereco;
 };
 
-// Função para adicionar um bem móvel ao arquivo
+// Funï¿½ï¿½o para adicionar um bem mï¿½vel ao arquivo pretendido
 void adicionarBemMovel() {
     Movels bem;
     ofstream arquivo("moveis.txt", ios::app);
@@ -39,7 +39,7 @@ void adicionarBemMovel() {
     arquivo.close();
 }
 
-// Função para adicionar um bem imóvel ao arquivo
+// Funï¿½ï¿½o para adicionar um bem imï¿½vel ao arquivo que estÃ¡ gravado com "imoveis.txt"
 void adicionarBemImovel() {
     Imovels bem;
     ofstream arquivo("imoveis.txt", ios::app);
@@ -58,7 +58,7 @@ void adicionarBemImovel() {
     arquivo.close();
 }
 
-// Função principal
+// Funï¿½ï¿½o principal
 int main() {
     int opcao;
     
